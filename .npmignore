@@ -1,0 +1,11 @@
+.vscode
+node_modules
+.editorconfig
+.gitignore
+.npmignore
+.prettierrc.toml
+index.tsx
+index.js.map
+tsconfig.json
+tslint.json
+yarn.lock

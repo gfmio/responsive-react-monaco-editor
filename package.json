@@ -1,0 +1,23 @@
+{
+  "name": "responsive-react-monaco-editor",
+  "version": "0.1.0",
+  "description": "Responsive React Monaco Editor component",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/gfmio/responsive-react-monaco-editor",
+  "author": "Frédérique Mittelstaedt <npm@gfm.io> (https://www.gfm.io)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.6",
+    "react": "^16.6.3",
+    "react-monaco-editor": "^0.22.0"
+  }
+}

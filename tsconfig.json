@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    // Output target & module type
+    "target": "es3",
+    "module": "commonjs",
+
+    // Source maps & declarations
+    "sourceMap": true,
+    "declaration": true,
+    // "declarationMap": true,
+
+    // Module resolution
+    "moduleResolution": "node",
+    "allowJs": false,
+    "resolveJsonModule": false,
+    "preserveSymlinks": false,
+
+    // Compiler message formatting, error handling
+    "preserveWatchOutput": true,
+    "pretty": true,
+    "noErrorTruncation": true,
+    "noEmitOnError": true,
+
+    // Remove comments & @internal
+    "removeComments": true,
+    "stripInternal": false,
+    "noImplicitUseStrict": false,
+
+    // Strictness settings
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "strict": true,
+    "noStrictGenericChecks": false,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "suppressExcessPropertyErrors": false,
+
+    // Module interoperability
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // JSX
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    // "reactNamespace": ""
+
+    // Decorators
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    // Should helpers be included via tslib
+    "importHelpers": false,
+    "noEmitHelpers": false,
+
+    // Typings import
+    // "typeRoots": [],
+    // "types": [],
+
+    // Default libraries to include (DOM and esnext basically assume a complete environment,
+    // leaving you with the responsibility to polyfill)
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": false,
+
+    // Other settings
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "keyofStringsOnly": false,
+    "noFallthroughCasesInSwitch": true,
+    "noResolve": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveConstEnums": false
+  },
+  "files": ["index.tsx"]
+}
