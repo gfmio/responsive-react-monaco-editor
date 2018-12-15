@@ -82,6 +82,7 @@ export class ResponsiveMonacoEditor extends React.Component<ResponsiveMonacoEdit
 
   public getSnapshotBeforeUpdate() {
     this.state.needsToRepaint = true;
+    return null;
   }
 
   public shouldComponentUpdate() {
@@ -223,6 +224,7 @@ export class ResponsiveMonacoDiffEditor extends React.Component<
 
   public getSnapshotBeforeUpdate() {
     this.state.needsToRepaint = true;
+    return null;
   }
 
   public shouldComponentUpdate() {
