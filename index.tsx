@@ -56,7 +56,7 @@ export class ResponsiveMonacoEditor extends React.Component<ResponsiveMonacoEdit
   protected containerRef: React.RefObject<HTMLDivElement> = React.createRef();
 
   public componentDidMount() {
-    if (this.sizeIsFixed()) {
+    if (!this.sizeIsFixed()) {
       this.setState({
         ...this.state,
         needsToRepaint: false,
@@ -73,7 +73,7 @@ export class ResponsiveMonacoEditor extends React.Component<ResponsiveMonacoEdit
   }
 
   public componentWillUnmount() {
-    if (this.sizeIsFixed()) {
+    if (!this.sizeIsFixed()) {
       if (window) {
         window.removeEventListener("resize", this.onWindowResize);
       }
@@ -197,7 +197,7 @@ export class ResponsiveMonacoDiffEditor extends React.Component<
 
   // ok
   public componentDidMount() {
-    if (this.sizeIsFixed()) {
+    if (!this.sizeIsFixed()) {
       this.setState({
         ...this.state,
         needsToRepaint: false,
@@ -214,7 +214,7 @@ export class ResponsiveMonacoDiffEditor extends React.Component<
   }
 
   public componentWillUnmount() {
-    if (this.sizeIsFixed()) {
+    if (!this.sizeIsFixed()) {
       if (window) {
         window.removeEventListener("resize", this.onWindowResize);
       }
