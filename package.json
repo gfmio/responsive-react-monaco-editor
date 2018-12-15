@@ -1,6 +1,6 @@
 {
   "name": "responsive-react-monaco-editor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Responsive React Monaco Editor component",
   "main": "index.js",
   "types": "index.d.ts",
